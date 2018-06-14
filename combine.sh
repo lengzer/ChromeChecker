@@ -14,6 +14,24 @@ xmllint --format dev-x64.unformat.xml > dev-x64.format.xml
 xmllint --format canary-x86.unformat.xml > canary-x86.format.xml
 xmllint --format canary-x64.unformat.xml > canary-x64.format.xml
 
+cat stable-x86.format.xml
+
+echo '-------------------------------------------------------------'
+echo
+echo
+echo
+echo
+
+cat stable-x64.format.xml
+
+
+echo '-------------------------------------------------------------'
+echo
+echo
+echo
+echo
+
+
 echo ''
 echo '-------------------------------------'
 echo 'Combining XML Files ......'
