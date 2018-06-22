@@ -3,6 +3,9 @@ dist: trusty
 install:
   - sudo apt-get --yes install libxml2-utils
 script:
+  - echo $GitHubEMail
+  - echo $GitHubKEY
+  - echo $GitHubUser
   - cat /etc/issue
   - cat /proc/version
   - cat /etc/*release*
